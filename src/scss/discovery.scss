@@ -1,0 +1,2481 @@
+@import "includes";
+@import "discovery/discovery-partials";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans";
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    align-items: center;
+
+    .details-container {
+        width: 80%;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .discovery-icon {
+            height: 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .family {
+            width: 217px;
+            height: 30px;
+            margin-left: 377px;
+            background: #004B8D;
+            border-radius: 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .text {
+                width: 154px;
+                margin-left: 15px;
+                padding-left: 45px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 29px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+
+            .icon {
+                margin-right: 18px;
+            }
+        }
+
+        .hi {
+            height: 30px;
+            margin-left: 30px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #555555;
+        }
+
+
+        .logout {
+            width: 90px;
+            height: 30px;
+            background: #004B8D;
+            border-radius: 2px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        .border-line {
+            width: 0px;
+            margin-top: 3px;
+            margin-left: 21px;
+            height: 24px;
+            border: 1px solid #E2E2E2;
+        }
+
+        .search-icon {
+            height: 16px;
+            margin-left: 21px;
+        }
+
+        .hamburger{
+            display: none;
+        }
+    }
+
+    .border-line {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #F5F5F5;
+    }
+
+    .nav-container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #555555;
+    }
+}
+
+.footer-container {
+    width: 100%;
+    background-color: #EAECEF;
+    align-items: center;
+
+    .footer-details-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .about-us-container {
+            margin-top: 45px;
+            margin-left: 165px;
+            display: flex;
+            flex-direction: column;
+
+            .about-us-title {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 29px;
+                color: #050A0D;
+                text-transform: uppercase;
+            }
+
+            .about-us-body {
+                display: flex;
+                flex-direction: column;
+
+                .about-us-text {
+                    margin-top: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #0E68BD;
+                }
+            }
+        }
+
+        .contact-us-container {
+            margin-top: 45px;
+            margin-left: 245px;
+            display: flex;
+            flex-direction: column;
+
+            .contact-us-title {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 29px;
+                color: #050A0D;
+                text-transform: uppercase;
+            }
+
+            .contact-us-dropdown {
+                width: 285px;
+                height: 40px;
+                margin-top: 30px;
+                background: #FFFFFF;
+                border: 2px solid #E2E2E2;
+                box-sizing: border-box;
+                border-radius: 1px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .text {
+                    margin-left: 10px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 29px;
+                    color: #545657;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                .icon {
+                    margin-right: 14px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .contact-us-text {
+                margin-top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+                color: #0E68BD;
+            }
+        }
+
+        .join-us-container {
+            margin-top: 45px;
+            margin-left: 81px;
+            margin-right: 286px;
+            display: flex;
+            flex-direction: column;
+
+            .join-us-title {
+                margin-left: 14px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 29px;
+                color: #050A0D;
+                text-transform: uppercase;
+            }
+
+            .join-us-body {
+                margin-top: 20px;
+                margin-left: 14px;
+
+                .join-us-text {
+                    margin-bottom: 25px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #0E68BD;
+                }
+            }
+
+            .connect-with-us-conatiner {
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+
+                .connect-with-us-title {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 21px;
+                    line-height: 29px;
+                    color: #050A0D;
+                    text-transform: uppercase;
+                }
+
+                .connect-with-us-body {
+                    width: fit-content;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+    
+                    .connect-with-us-text-1 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #0E68BD;
+                    }
+
+                    .connect-with-us-text-2 {
+                        margin-left: 19px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #0E68BD;
+                    }
+                }
+
+                .connect-with-us-icons {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .icon-fb {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    .icon-in {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    .icon-tw {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    .icon-yo {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    .icon-pi {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    .icon-inst {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-footer-details-container {
+        width: 100%;
+        height: 73px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #004B8D;
+
+        .bottom-footer-details-text-1 {
+            margin-top: 24px;
+            margin-left: 165px;
+            margin-bottom: 20px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+
+        .bottom-footer-details-text-2 {
+            margin-top: 24px;
+            margin-right: 162px;
+            margin-bottom: 20px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.vitality-drive-container {
+    width: 100%;
+    background-color: #F5F5F5;
+
+    .vitality-drive-body {
+        width: 100%;
+        align-items: center;
+        margin-top: 60px;
+
+        .vitality-drive-heading {
+            width: 80%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 44px;
+            color: #545657;
+        }
+
+        .vitality-drive-sensor-container {
+            width: 80%;
+            margin-top: 30px;
+            background: #FFFFFF;
+            border: 1px solid #ECEEEF;
+            box-sizing: border-box;
+            box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+
+            .vitality-drive-sensor-border {
+                width: 9px;
+                height: 160px;
+                background: #EE7F65;
+                border-radius: 3px 0px 0px 3px;
+            }
+
+            .vitality-drive-sensor-body {
+                width: 100%;
+                .vitality-drive-sensor-title-container {
+                    margin-top: 18px;
+                    margin-left: 21px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+
+                    .vitality-drive-sensor-icon {
+                        width: 64px;
+                        height: 64px;
+                    }
+
+                    .vitality-drive-sensor-title {
+                        margin-left: 17px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 32px;
+                        line-height: 64px;
+                        color: #EE7F65;
+                    }
+                }
+
+                .vitality-drive-sensor-text {
+                    margin-top: 18px;
+                    margin-left: 24px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #545657;
+                }
+
+                .vitality-drive-sensor-learn-more-container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: end;
+
+                    .vitality-drive-sensor-learn-more {
+                        margin-top: 10px;
+                        margin-right: 31px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 0px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        text-transform: uppercase;
+                        color: #0E68BD;
+                    }
+                }
+                
+            }
+        }
+
+        .planholder-rewards-container {
+            width: 80%;
+            margin-top: 33px;
+
+            .planholder-container {
+                width: 48%;
+                height: 94px;
+                background: #FFFFFF;
+                border: 1px solid #ECEEEF;
+                border-radius: 3px;
+
+                .planholder-icon {
+                    width: 75px;
+                    height: 94px;
+                    padding-top: 11px;
+                    padding-left: 16px;
+                    
+                    img {
+                        border-radius: 50%;
+                    }
+                }
+
+                .planholder-text {
+                    margin-left: 16px;
+
+                    .planholder-t1 {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        color: rgba(68, 68, 68, 0.87);
+                    }
+                    
+                    .planholder-t2 {
+                        margin-left: 9px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        color: rgba(68, 68, 68, 0.54);
+                    }
+                }
+
+                .planholder-arrow {
+                    width: 11.99px;
+                    height: 94px;
+                    margin-left: 106px;
+                    margin-top: 30px;
+                }
+            }
+
+            .rewards-container {
+                width: 48%;
+                height: 94px;
+                background: #FFFFFF;
+                border: 1px solid #E2E2E2;
+                box-sizing: border-box;
+                border-radius: 3px;
+
+                .planholder-t1 {
+                    margin-left: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: rgba(68, 68, 68, 0.87);
+                }
+                
+                .planholder-t2 {
+                    margin-left: 9px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: rgba(68, 68, 68, 0.54);
+                }
+
+                .rewards-arrow {
+                    width: 11.99px;
+                    height: 94px;
+                    margin-left: 177px;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .vitality-drive-status-container {
+            width: 80%;
+            margin-top: 20px;
+            background: #FFFFFF;
+            border: 1px solid #ECEEEF;
+            box-sizing: border-box;
+            border-radius: 3px;
+
+            .vitality-drive-status-body {
+                width: 100%;
+                height: 185px;
+
+                .vitality-drive-status-title {
+                    margin-top: 16px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 29px;
+                    line-height: 39px;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #000000;
+
+                    .label-text {
+                        color: rgba(68, 68, 68, 0.54);
+                        font-weight: 400;
+                        margin-left: 5px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 29px;
+                        line-height: 39px;
+                        display: flex;
+                        align-items: flex-end;
+                    }
+                }
+
+                .driver-status-bar {
+                    height: 40px;
+                    margin-top: 5px;
+                    margin-left: 20px;
+                    margin-right: 24px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    
+                    .bar-1 {
+                        width: 20%;
+                        height: 15px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        background: linear-gradient(90deg, #2D6DA4 0%, #88C3F4 100%);
+                        border-top-left-radius: 12px;
+                        border-bottom-left-radius: 12px;
+                    }
+
+                    .bar-2 {
+                        width: 20%;
+                        height: 15px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        background: linear-gradient(90deg, #C16B45 0%, #EB874C 100%);
+                        border: 12px;
+                    }
+
+                    .bar {
+                        width: 20%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .bar-3 {
+                            display: flex;
+                            flex-direction: row;
+    
+                            .before-icon {
+                                width: 100%;
+                                height: 15px;
+                                margin-top: 10px;
+                                margin-bottom: 15px;
+                                background: linear-gradient(90deg, #949494 0.86%, #C3C3C3 100%);
+                                border: 12px;
+                            }
+    
+                            .icon {
+                                height: 40px;
+                                padding-left: 6px;
+                                padding-right: 7px;
+                                margin-left: 1px;
+                                margin-right: 1px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                background: linear-gradient(90deg, #949494 0.86%, #C3C3C3 100%);
+                                border-radius: 50%;
+
+                                img {
+                                    width: 25px;
+                                    height: 12px;
+                                }
+                            }
+    
+                            .after-icon {
+                                width: 100%;
+                                height: 15px;
+                                margin-top: 10px;
+                                margin-bottom: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                background: linear-gradient(90deg, #949494 0.86%, #C3C3C3 100%);
+                                border: 12px;
+                            }
+                        }
+                    }
+
+                    .bar-4 {
+                        width: 20%;
+                        height: 15px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        background: linear-gradient(270deg, #ECD05F 0%, #BB9142 106.65%);
+                        border: 12px;
+                    }
+
+                    .bar-5 {
+                        width:20%;
+                        height: 15px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        background: linear-gradient(90deg, #B2BDCF 0%, #C3AFC8 100%);
+                        border-top-right-radius: 12px;
+                        border-bottom-right-radius: 12px;
+                    }
+                }
+
+                .points {
+                    margin-left: 23px;
+                    margin-bottom: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #050A0D;
+                }
+            }
+        }
+
+        .fuel-cash-back-container {
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            background: #FFFFFF;
+            border: 1px solid #ECEEEF;
+            box-sizing: border-box;
+            border-radius: 3px;
+
+            .fuel-cash-back-body {
+                width: 100%;
+                height: 403px;
+
+                .fuel-cash-back-title {
+                    margin-top: 16px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 29px;
+                    line-height: 39px;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #000000;
+
+                    .info-icon {
+                        margin-left: 9px;
+                    }
+                }
+
+                .fuel-cash-back-subtitle {
+                    margin-top: 8px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 29px;
+                    text-align: center;
+                    color: #86898B;
+                }
+
+                .projected-title {
+                    margin-top: 19px;
+
+                    .title {
+                        margin-left: 20px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #050A0D;
+                    }
+
+                    .amount {
+                        margin-right: 22px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 28px;
+                        line-height: 28px;
+                        color: #0E68BD;
+                    }
+                }
+
+                .fuel-back-bar {
+                    margin-top: 5px;
+                    margin-left: 20px;
+                    margin-right: 24px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    .filled-bar {
+                        width: 31%;
+                        height: 15px;
+                        background: linear-gradient(90deg, #116ECB 0%, #114B8A 100%);
+                        border-top-left-radius: 12px;
+                        border-bottom-left-radius: 12px;
+                    }
+
+                    .unfilled-bar {
+                        width:69%;
+                        height: 15px;
+                        background: rgba(0, 0, 0, 0.08);
+                        border-top-right-radius: 12px;
+                        border-bottom-right-radius: 12px;
+                    }
+                }
+
+                .projected-title-amount {
+                    margin-left: 20px;
+                    margin-right: 27px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 29px;
+                    color: rgba(68, 68, 68, 0.87);
+                }
+
+                .cash-back-tiles {
+                    margin-top: 20px;
+                    height: 127px;
+
+                    .tile-1 {
+                        width: 30%;
+                        margin-left: 20px;
+                        background: rgba(11, 91, 164, 0.2);
+                        border-radius: 2px;
+
+                        .title {
+                            margin-top: 17px;
+                            margin-left: 17px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #545657;
+                        }
+
+                        .body {
+                            margin-top: 27px;
+                            margin-left: 17px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #114B8A;
+                        }
+                    }
+
+                    .tile-2 {
+                        width: 30%;
+                        background: #F5F5F5;
+                        border-radius: 2px;
+                        margin-left: 16px;
+                        margin-right: 16px;
+
+                        .title {
+                            margin-top: 15px;
+                            margin-left: 17px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #545657;
+                        }
+
+                        .info-icon {
+                            margin-top: 17px;
+                            margin-right: 14px;
+                        }
+
+                        .body {
+                            margin-top: 26px;
+                            margin-left: 18px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #114B8A;
+                        }
+
+                        .view {
+                            margin-top: 10px;
+                            margin-left: 18px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 16px;
+                            display: flex;
+                            align-items: center;
+                            letter-spacing: 0.25px;
+                            color: #0E68BD;
+                        }
+                    }
+
+                    .tile-3 {
+                        width: 30%;
+                        background: #F5F5F5;
+                        border-radius: 2px;
+                        margin-right: 23px;
+
+                        .title {
+                            margin-top: 17px;
+                            margin-left: 16px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #545657;
+                        }
+
+                        .info-icon {
+                            margin-top: 17px;
+                            margin-right: 14px;
+                        }
+
+                        .body {
+                            margin-top: 26px;
+                            margin-left: 17px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #114B8A;
+                        }
+                    }
+                }
+
+                .cash-back-history {
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.25px;
+                    color: #0E68BD;
+                }
+            }
+        }
+
+        .vitality-drive-container {
+            width: 100%;
+            background: #FFFFFF;
+
+            .vitality-drive-body-container {
+                width: 80%;
+                margin-bottom: 60px;
+
+                .vitality-drive-body {
+                    width: 100%;
+
+                    .vitality-drive-title {
+                        width: 100%;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 29px;
+                        line-height: 39px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        color: #000000;
+                    }
+
+                    .vitality-drive-points-container {
+                        width: 100%;
+                        margin-top: 25px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .text {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 26px;
+                            line-height: 35px;
+                            color: #050A0D;
+                        }
+
+                        .points-value {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 26px;
+                            line-height: 35px;
+                            text-align: right;
+                            color: #004B8D;
+                        }
+                    }
+                    .vitality-drive-points-bar {
+                        width: 100%;
+                        height: 15px;
+                        margin-top: 5px;
+                        display: flex;
+                        flex-direction: row;
+
+                        .bar-1 {
+                            width: 37%;
+                            background: #116ECB;
+                            border-top-left-radius: 12px;
+                            border-bottom-left-radius: 12px;
+                        }
+
+                        .bar-2 {
+                            width: 11%;
+                            background: #FDB813;
+                            border: 12px;
+                        }
+
+                        .bar-3 {
+                            width: 21%;
+                            background: #8C2473;
+                            border: 12px;
+                        }
+
+                        .bar-4 {
+                            width: 31%;
+                            background: rgba(0, 0, 0, 0.08);
+                            border-top-right-radius: 12px;
+                            border-bottom-right-radius: 12px;
+                        }
+                    }
+
+                    .value-container {
+                        width: 100%;
+                        margin-top: 15px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 29px;
+                        text-align: right;
+                        color: rgba(68, 68, 68, 0.87);
+                    }
+
+                    .border-line {
+                        width: 100%;
+                        margin-top: 20px;
+                        background-color: #E2E2E2;
+                        border: 1px solid #E2E2E2;
+                    }
+
+                    .points-breakdown-container {
+                        width: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .points-breakdown-title-container {
+                            width: 100%;
+                            margin-top: 20px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+
+                            .title {
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 26px;
+                                line-height: 35px;
+                                display: flex;
+                                align-items: flex-end;
+                                color: #000000;
+                            }
+
+                            .icon {
+                                margin-left: 5px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                            }
+                        }
+
+                        .driving-behaviour-points-container {
+                            width: 100%;
+                            margin-top: 30px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+
+                            .driving-behaviour-points-title-container {
+                                margin-bottom: 30px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+
+                                .title {
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    color: #050A0D;
+                                }
+
+                                .value {
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    text-align: right;
+                                    color: #050A0D;
+
+                                    &.vehicle-safety {
+                                        color: #5FB957;
+                                    }
+                                }
+                            }
+
+                            .driving-behaviour-container {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+
+                                .driving-behaviour {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    &.right {
+                                        width: 50%;
+                                        padding-left: 9px;
+                                    }
+
+                                    &.left {
+                                        width: 50%;
+                                        padding-right: 8px;
+                                    }
+
+                                    .driving-container {
+                                        display: flex;
+                                        flex-direction: column;
+
+                                        &.distance, &.claim , &.eye{
+                                            margin-top: 20px;
+                                        }
+
+                                        .title-section-container {
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-between;
+
+                                            .title-container {
+                                                display: flex;
+                                                flex-direction: row;
+
+                                                .title {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    font-family: Open Sans;
+                                                    font-style: normal;
+                                                    font-weight: normal;
+                                                    font-size: 16px;
+                                                    line-height: 20px;
+                                                    color: #545657;
+                                                }
+
+                                                .icon {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    margin-left: 10px;
+                                                }
+                                            }
+
+                                            .points-value {
+                                                font-family: Open Sans;
+                                                font-style: normal;
+                                                font-weight: 600;
+                                                font-size: 14px;
+                                                line-height: 29px;
+                                                color: #050A0D;
+
+                                                &.vehicle-safety {
+                                                    color: #5FB957;
+                                                }
+                                            }
+                                        }
+
+                                        .bar-container {
+                                            width: 100%;
+                                            height: 15px;
+                                            margin-top: 14px;
+                                            display: flex;
+                                            flex-direction: row;
+
+                                            .bar-1 {
+                                                width: 40%;
+                                                background: #116ECB;;
+                                                border-top-left-radius: 12px;
+                                                border-bottom-left-radius: 12px;
+                                                
+                                                &.distance {
+                                                    width: 50%;
+                                                }
+
+                                                &.night {
+                                                    width: 33%;
+                                                }
+
+                                                &.claim {
+                                                    width: 100%;
+                                                    border-top-right-radius: 12px;
+                                                    border-bottom-right-radius: 12px;
+                                                }
+
+                                                &.vehicle-safety {
+                                                    width: 100%;
+                                                    background: #FDB813;
+                                                    border-top-right-radius: 12px;
+                                                    border-bottom-right-radius: 12px;
+                                                }
+
+                                                &.online-driver {
+                                                    width: 100%;
+                                                    background: #8C2473;
+                                                    border-top-right-radius: 12px;
+                                                    border-bottom-right-radius: 12px;
+                                                }
+
+                                                &.eye {
+                                                    width: 33%;
+                                                    background: #8C2473;
+                                                }
+
+                                                &.driving {
+                                                    width: 33%;
+                                                    background: #8C2473;
+                                                }
+                                            }
+
+                                            .bar-2 {
+                                                width: 60%;
+                                                background: rgba(0, 0, 0, 0.08);
+                                                border-top-right-radius: 12px;
+                                                border-bottom-right-radius: 12px;
+
+                                                &.distance {
+                                                    width: 50%;
+                                                }
+
+                                                &.night {
+                                                    width: 67%;
+                                                }
+
+                                                &.claim {
+                                                    width: 0%;
+                                                }
+
+                                                &.vehicle-safety {
+                                                    width: 0%;
+                                                }
+
+                                                &.online-driver {
+                                                    width: 0%;
+                                                }
+
+                                                &.eye {
+                                                    width: 67%;
+                                                    background: rgba(0, 0, 0, 0.08);
+                                                }
+
+                                                &.driving {
+                                                    width: 67%;
+                                                    background: rgba(0, 0, 0, 0.08);
+                                                }
+                                            }
+                                        }
+
+                                        .value-container {
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-between;
+                                            font-family: Open Sans;
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 20px;
+                                            text-align: right;
+                                            letter-spacing: 0.25px;
+                                            color: rgba(68, 68, 68, 0.87);
+                                        }
+
+                                        .valid {
+                                            margin-top: 10px;
+                                            font-family: Open Sans;
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 29px;
+                                            color: #CE3639;
+
+                                            &.online {
+                                                color: #55AC4E;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .border-line {
+                            width: 100%;
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            background-color: #E2E2E2;
+                            border: 1px solid #E2E2E2;
+                        }
+                    }
+                }
+            }
+        }
+
+        .maximise-vitality-drive-container {
+            width: 100%;
+
+            .maximise-vitality-drive-body-container {
+                width: 100%;
+                margin-top: 59px;
+                margin-bottom: 60px;
+                align-items: center;
+
+                .maximise-vitality-drive-title {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 26px;
+                    line-height: 35px;
+                    display: flex;
+                    align-items: center;
+                    color: #545657;
+                }
+
+                .maximise-vitality-drive-body {
+                    width: 80%;
+                    margin-top: 30px;
+                    background: #FFFFFF;
+                    border: 1px solid #ECEEEF;
+                    box-sizing: border-box;
+                    border-radius: 3px;
+
+                    .driving-behaviour-points-container {
+                        width: 100%;
+
+                        .driving-behaviour-points-title-container{
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                            .title-container {
+                                margin-top: 20px;
+                                margin-left: 20px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+
+                                .icon {
+                                    margin-top: 9px;
+                                    margin-left: 15px;
+                                }
+
+                                .title {
+                                    margin-left: 31px;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 24px;
+                                    line-height: 33px;
+                                    color: #545657;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                            }
+
+                            .points-value {
+                                margin-top: 42px;
+                                margin-right: 20px;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 26px;
+                                line-height: 35px;
+                                text-align: right;
+                                color: #545657;
+                            }
+                        }
+
+                        .border-line-title {
+                            width: 100%;
+                            margin-top: 20px;
+                            border: 1px solid #ECEEEF;
+                        }
+
+                        .border-line {
+                            margin-top: 20px;
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            border: 1px solid #ECEEEF;
+                        }
+
+                        .driving-profile-container {
+                            width: 100%;
+                            margin-top: 20px;
+                            display: flex;
+                            flex-direction: column;
+
+                            .driving-profile-title-container {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+
+                                .driving-title-container {
+                                    margin-left: 20px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+
+                                    .title {
+                                        font-family: Open Sans;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 18px;
+                                        line-height: 28px;
+                                        color: #0D171E;
+                                    }
+
+                                    .icon {
+                                        margin-left: 10px;
+                                    }
+                                }
+
+                                .points-value {
+                                    margin-right: 22px;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    text-align: right;
+                                    color: #0D171E;
+                                }
+                            }
+
+                            .driving-profile-body {
+                                width: 100%;
+                                margin-top: 19px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+
+                                .icon {
+                                    margin-left: 26px;
+                                }
+
+                                .body-text {
+                                    margin-left: 19px;
+                                    margin-right: 27px;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 29px;
+                                    color: #050A0D;
+
+                                    .highlight-text {
+                                        color: #116ECB;
+                                    }
+
+                                    .partner-containers {
+                                        width: 212px;
+                                        height: 42px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        background: #004B8D;
+                                        border-radius: 2px;
+                                        font-family: Open Sans;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 13px;
+                                        line-height: 18px;
+                                        text-align: center;
+                                        letter-spacing: 0.05em;
+                                        text-transform: uppercase;
+                                        color: #FFFFFF;
+                                    }
+                                }
+                                
+                            }
+
+                            .driving-profile-body-claim {
+                                width: 100%;
+                                margin-top: 19px;
+                                display: flex;
+                                flex-direction: row;
+
+                                .icon {
+                                    margin-left: 26px;
+                                }
+
+                                .body-text {
+                                    margin-left: 19px;
+                                    margin-right: 27px;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 29px;
+                                    color: #050A0D;
+                                }
+                            }
+                        }
+
+                        .task-complete-container {
+                            width: 100%;
+                            margin-top: 13px;
+                            display: flex;
+                            flex-direction: column;
+
+                            .title {
+                                margin-left: 21px;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 29px;
+                                color: #545657;
+                            }
+
+                            .body {
+                                margin-top: 10px;
+                                margin-bottom: 18px;
+                                display: flex;
+                                flex-direction: row;
+
+                                .icon {
+                                    margin-left: 17px;
+                                }
+
+                                .text {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-left: 13px;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    color: #0D171E;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-vitality-drive {
+        width: 100%;
+        height: 563px;
+    }
+}
+
+.cash-back-container {
+    width: 100%;
+    background-color: #F5F5F5;
+
+    .cash-back-banner {
+        width: 100%;
+        height: 349.51px;
+        background-image: url('../../dist/img/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 37px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .funder-container {
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .switch-funder-container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+
+            .error-container {
+                margin-top: 31px;
+                height: 72px;
+                display: flex;
+                flex-direction: row;
+                background: #FFC8C8;
+                border-radius: 3px;
+
+                .icon-alert {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                }
+
+                .text {
+                    margin-left: 10px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    color: #292B2C;
+                }
+
+                .icon-exit {
+                    margin-top: 10px;
+                    margin-right: 20px;
+                }
+            }
+
+            .switch-insure-funder-container {
+                margin-top: 30px;
+                background: #FFFFFF;
+                border: 1px solid #ECEEEF;
+                box-sizing: border-box;
+                box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 3px;
+                display: flex;
+                flex-direction: row;
+
+                .border-line {
+                    width: 8.96px;
+                    background: #0B5BA4;
+                    border-radius: 3px 0px 0px 3px;                    
+                }
+
+                .switch-insure-container {
+                    width: 100%;
+                    margin-top: 23.52px;
+                    margin-left: 15.72px;
+
+                    .switch-insure-title-container {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+
+                        .title {
+                            margin-left: 22.68px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 32px;
+                            line-height: 44px;
+                            color: #0B5BA4;
+                        }
+                    }
+
+                    .switch-body-text {
+                        margin-top: 20.45px;
+                        margin-left: 24.69px;
+                        margin-right: 14.7px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #0D171E;
+                    }
+
+                    .check-container {
+                        margin-top: 20px;
+                        margin-left: 27.69px;
+                        display: flex;
+                        flex-direction: row;
+
+                        .icon {
+                            width: 20px;
+                            height: 20px;
+                            background: #004B8D;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+
+                            img {
+                                padding: 4px;
+                            }
+                        }
+
+                        .text {
+                            margin-left: 20px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #292B2C;
+
+                            .terms {
+                                color: #1a73e8;;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                    .switch-now {
+                        width: 134px;
+                        height: 42px;
+                        margin-top: 32px;
+                        margin-bottom: 20px;
+                        margin-right: 20.7px;
+                        background: #004B8D;
+                        border-radius: 2px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .text {
+                            width: 100%;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 18px;
+                            text-align: center;
+                            letter-spacing: 0.05em;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                        }
+                        
+                    }
+                }
+            }
+
+            .dropdown-container {
+                margin-top: 30px;
+
+                div {
+                    .switch-title {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #292B2C;
+                    }
+
+                    .dropdown {
+                        width: 349px;
+                        height: 40px;
+                        margin-top: 10px;
+                        background: #FFFFFF;
+                        border: 2px solid #E2E2E2;
+                        box-sizing: border-box;
+                        border-radius: 1px;
+
+                        .text {
+                            margin-left: 7px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 29px;
+                            color: #545657;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+
+                        .icon {
+                            margin-right: 11px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+            .total-fuel-container {
+                width: 100%;
+                margin-top: 30px;
+                padding-bottom: 20px;
+                background: #FFFFFF;
+                border: 1px solid #ECEEEF;
+                box-sizing: border-box;
+                border-radius: 3px 3px 0px 0px;
+
+                div {
+                    .pig-icon {
+                        margin-top: 31px;
+                        margin-left: 26.64px;
+                    }
+
+                    div {
+                        margin-left: 27.47px;
+
+                        .pig-title{
+                            margin-top: 20px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            color: #545657;
+                        }
+
+                        .pig-text {
+                            margin-top: 5px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            color: #86898B;
+                        }
+                    }
+                }
+
+                .pig-value {
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 33px;
+                    color: #545657;
+                }
+            }
+        }
+    }
+
+    .quicklinks-outer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #FFFFFF;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: #013D72;
+
+            .quicklinks-container{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                background: #013D72;
+    
+                .quicklinks-title {
+                    margin-top: 28px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 33px;
+                    color: #FFFFFF;
+                }
+
+                .quicklinks-tile-container {
+                    margin-top: 31px;
+                    margin-bottom: 47px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .quicklinks-tile {
+                        width: 349.03px;
+                        height: 109px;
+                        border: 1px solid #ECEEEF;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .text {
+                            margin-top: 15px;
+                            margin-left: 14.5px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 25px;
+                            color: #FFFFFF;
+                        }
+
+                        .icon {
+                            width: 40px;
+                            height: 35px;
+                            margin-top: 15px;
+                            margin-right: 15px;
+                            padding: 11px;
+                            background: #FFFFFF;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cashback-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #F5F5F5;
+        margin-bottom: 60px;
+
+        .cashback-inner-container {
+            width: 80%;
+
+            .current-cashback-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 30px;
+                background: #FBFBFB;
+                border: 1px solid #ECEEEF;
+                box-sizing: border-box;
+
+                .date-cashback-title-container {
+                    display: flex;
+                    flex-direction: row;
+
+                    .date-cashback-title {
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 30px;
+                        color: #050A0D;
+                    }
+    
+                    .current-button {
+                        height: 20px;
+                        margin-top: 22px;
+                        margin-left: 8px;
+                        padding: 0px 14px;
+                        background: #004B8D;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                    }
+                }
+                
+                .project-fuel-container {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .title-container {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .title {
+                            margin-left: 20px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #050A0D;
+                        }
+
+                        .value {
+                            margin-right: 25px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-align: right;
+                            color: #0B5BA4;
+                        }
+                    }
+
+                    .bar {
+                        width: 100%;
+                        height: 15px;
+                        margin-top: 8px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        display: flex;
+                        flex-direction: row;
+
+                        .bar-1 {
+                            width: 31%;
+                            height: 15px;
+                            background: #116ECB;
+                            border-top-left-radius: 12px;
+                            border-bottom-left-radius: 12px;
+                        }
+
+                        .bar-2 {
+                            width: 69%;
+                            height: 15px;
+                            background: rgba(0, 0, 0, 0.08);
+                            border-top-right-radius: 12px;
+                            border-bottom-right-radius: 12px;
+                        }
+                    }
+
+                    .value-container {
+                        margin-top: 5px;
+                        margin-left: 20px;
+                        margin-right: 27px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 29px;
+                        color: rgba(68, 68, 68, 0.87);
+                    }
+                }
+
+                .project-fuel-breakdown-container {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .project-fuel-title {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #545657;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
+                }
+
+                .breakdown-container {
+                    width: 100%;
+                    margin-top: 15px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    &.spend {
+                        margin-bottom: 20px;
+                    }
+
+                    .qualify-cashback-container {
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .title {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #050A0D;
+
+                            &.spend {
+                                color: #004B8D;
+                            }
+                        }
+
+                        .value {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(68, 68, 68, 0.87);
+                        }
+                    }
+
+                    .qualify-operation {
+                        width: 5%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: end;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        text-align: center;
+                        color: rgba(68, 68, 68, 0.87);
+                    }
+                }
+
+                .border-line {
+                    margin-top: 29px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    border: 1px solid #E2E2E2;
+                }
+
+                .callback-container {
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: #050A0D;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                }
+
+                .callback-date-container {
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .date-text {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 29px;
+                        text-align: right;
+                    }
+
+                    .text-body {
+                        margin-right: 18px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 29px;
+                        text-align: right;
+                        color: #545657;
+
+                        .value {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-align: right;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+
+            .insure-funder-account-container {
+                width: 100%;
+                padding-bottom: 20px;
+                display: flex;
+                flex-direction: row;
+                background: #FFFFFF;
+                border: 1px solid #ECEEEF;
+                box-sizing: border-box;
+                border-radius: 3px 3px 0px 0px;
+
+                .insure-container {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+
+                    .icon {
+                        margin-top: 29px;
+                        margin-left: 27px;
+                        width: 48px;
+                    }
+
+                    .text-container {
+                        margin-top: 20px;
+                        margin-left: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .title {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 33px;
+                            color: #545657;
+                        }
+
+                        .text-body {
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #86898B;
+                        }
+                    }
+                }
+
+                .value {
+                    margin-top: 20px;
+                    margin-right: 13px;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 33px;
+                    color: #545657;
+                }
+            }
+
+            .insure-funder-info-container {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                background: #FBFBFB;
+                border: 1px solid #ECEEEF;
+                box-sizing: border-box;
+
+                .info-container {
+                    width: 100%;
+                    margin: 27px 17px 29px 23px;
+                    background: #FFFFFF;
+                    border: 1px solid #ECEEEF;
+                    box-sizing: border-box;
+                    border-radius: 3px;
+                    display: flex;
+                    flex-direction: row;
+
+                    .icon {
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+
+                    .text {
+                        margin-top: 16px;
+                        margin-left: 8px;
+                        padding-bottom: 20px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 29px;
+                        color: #292B2C;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-vitality-drive {
+        width: 100%;
+        height: 563px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-container {
+        height: 70px;
+
+        .details-container {
+            width: 100%;
+            margin-top: 21px;
+            margin-left: 15px;
+
+            .family {
+                display: none;
+            }
+
+            .hi {
+                display: none;
+            }
+
+            .logout {
+                width: 61px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.04em;
+                background-color: #FFFFFF;
+                color: #0E68BD;
+            }
+
+            .search-icon {
+                display: none;
+            }
+
+            .border-line {
+                display: flex;
+                height: 22px;
+                width: 0px;
+                margin-left: 0px;
+                border: 1px solid #E2E2E2;
+            }
+
+            .hamburger {
+                width: 24px;
+                height: 16px;
+                margin-top: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+
+        .border-line {
+            display: none;
+        }
+
+        .nav-container {
+            margin-top: 0px;
+            display: none;
+        }
+    }
+
+    .vitality-drive-container {
+        width: 100%;
+
+        .header {
+            height: 70px;
+        }
+
+        .vitality-drive-body {
+            margin-top: 30px;
+
+            .vitality-drive-heading {
+                width: 95%;
+                margin-left: 15px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 41px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #545657;
+            }
+
+            .vitality-drive-sensor-container {
+                width: 95%;
+
+                .vitality-drive-sensor-border {
+                    width: 6px;
+                    height: 234px;
+                    background: #EE7F65;
+                    border-radius: 3px 0px 0px 3px;
+                }
+
+                .vitality-drive-sensor-body {
+                    .vitality-drive-sensor-title-container {
+                        width: 100%;
+                        margin-top: 15px;
+                        margin-left: 0px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .vitality-drive-sensor-icon {
+                            width: 48px;
+                            height: 48px;
+                        }
+
+                        .vitality-drive-sensor-title {
+                            margin-left: 5px;;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 25px;
+                            line-height: 41px;
+                            text-align: center;
+                            text-indent: 44px;
+                            color: #EE7F65;
+                        }
+                    }
+
+                    .vitality-drive-sensor-text {
+                        margin-top: 15px;
+                        margin-left: 0px;
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 28px;
+                        text-align: center;
+                        color: #545657;
+                    }
+
+                    .vitality-drive-sensor-learn-more-container {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    
+                        .vitality-drive-sensor-learn-more {
+                            margin-top: 20px;
+                            margin-right: 0px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 0px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            letter-spacing: 0.05em;
+                            text-transform: uppercase;
+                            color: #0E68BD;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
